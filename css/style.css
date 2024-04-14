@@ -265,7 +265,7 @@ body {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.10000000149011612px;
-  text-align: left;
+  text-align: center;
   color: #252B42;
 }
 
@@ -274,7 +274,12 @@ body {
   display: flex;
   gap: 15px;
   flex-direction: column;
+  background-color:  #FFFFFF;
+}
 
+.advice_firstImg {
+  width: 230px;
+  height: 138px;
 }
 
 /* .advice_firstImg {
@@ -283,3 +288,150 @@ body {
   background-image: url(https://www.figma.com/file/zziInZc14Sr7cX27dBs99E/Relvise?type=design&node-id=964-17490&mode=design&t=1CdTifmgrZ7fPVtp-4);
   background-size: cover;
 } */
+
+.menu_Container_2 {
+  padding: 0px 160px 36px 195px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #FFFFFF;
+}
+
+.menu__body {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu__info {
+  width: 333px;
+  height: 438px;
+  display: flex;
+  gap:30px;
+  flex-direction: column;
+}
+
+.menuBody_Desc {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.menuBody__Title {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+.menu__body_container {
+  display: flex;
+  gap: 20px;
+}
+
+
+.menuContainer_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAFAFA;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.menuLogos {
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.menuBackground {
+  background-color: #252B42;
+  width: 100%;
+  height: 77px;
+}
+
+.menuBgOpp {
+  width: 1050px;
+  position: absolute;
+  bottom: -2200px;
+  padding: 20px 0px 20px 0px;
+  background-color: #17213C;
+}
+
+.menu__subscribe {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu__subscribe h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.menu__subscribe input {
+  width: 450px;
+  height: 58px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.menu__subscribe button {
+  width: 117px;
+  height: 58px;
+  padding: 15px 22.5px 15px 22.5px;
+  display: flex;
+  gap: 10px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px 0px 0px 0px;
+  background-color: #FF7B47;
+  align-items: center;
+  color: #E6E6E6;
+}
+
+.menu__subscribeInput {
+  display: flex;
+}
+
+.menuContainer_5 {
+  background-color: #F3F3F3;
+}
+
+.Container5_Inside {
+  width: 1050px;
+  height: 740px;
+  padding: 80px 0px 80px 0px;
+  display: flex;
+  gap: 80px;
+}
+
+.Touch_Containers {
+  width: 328px;
+  height: 333px;
+  padding: 50px 40px 50px 40px;
+  display: flex;
+  gap: 15px;  
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.touch_Container {
+  display: flex;
+  flex-direction: row;
+}
